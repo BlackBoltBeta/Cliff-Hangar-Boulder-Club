@@ -9,6 +9,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
+/* hero image */
+
+/* Code taken from https://blog.hubspot.com/marketing/hero-image */
 .hero {
     position: relative;
     width: 100vw;
@@ -24,7 +28,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../images/hero-image-v04.jpg);
+    background: url(../images/hero-image-reducedv5.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
