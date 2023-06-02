@@ -34,7 +34,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    filter: brightness(80%);
+    filter: brightness(70%);
 }
 .hero-content {
     position: relative;
@@ -63,7 +63,7 @@ body {
 /* Code adapted from https://codepen.io/WhisnuYs/pen/XWdpdGP */
 .navMenu {
     position: absolute;
-    top: 99%;
+    top: 100%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -82,13 +82,13 @@ body {
   }
   
   .navMenu a:hover {
-    color: #eb5693;
+    color: #e69828;
   }
   
   .navMenu .dot {
     width: 6px;
     height: 6px;
-    background: #eb5693;
+    background: #e69828;
     border-radius: 50%;
     opacity: 0;
     -webkit-transform: translateX(30px);
@@ -121,14 +121,45 @@ body {
     opacity: 1;
   }
   
-  .navMenu a:nth-child(4):hover ~ .dot {
+.navMenu a:nth-child(4):hover ~ .dot {
     -webkit-transform: translateX(285px);
     transform: translateX(285px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
+}
+
+/* project area */
+
+.main-padding {
+  border: 30px outset #2876e6;
+  background-color: lightblue;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box img {
+  width: 100%;
+  height: a;
+}
+
+@media only screen and (min-width:800px) {
+  .flex-container {
+    flex-direction: row;
   }
 
-  /*#navcontainer {
-
+  .box {
+    width: 50%;
   }
+}
