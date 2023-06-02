@@ -14,7 +14,7 @@ body {
 
 /* hero image */
 
-/* Code taken from https://blog.hubspot.com/marketing/hero-image */
+/* Code adapted from https://blog.hubspot.com/marketing/hero-image */
 .hero {
     position: relative;
     width: 100vw;
@@ -58,27 +58,12 @@ body {
     margin-top: 1rem;
 }
 
-.hero-button {
-    background-color: #0e7bcd;
-    color: white;
-    border: 1px solid #cb376a;
-    margin-top: 5rem;
-    padding: 0.9375rem 1.875rem;
-    font-family: "Monserrat", sans-serif;
-    font-size: 1.125rem;
-    font-weight: 200;
-    cursor: pointer;
-}
-.hero-button:hover {
-    background-color: #cb376a;
-    border: 1px solid #db7598;
-}
-
 /* Navigation menu */
 
+/* Code adapted from https://codepen.io/WhisnuYs/pen/XWdpdGP */
 .navMenu {
     position: absolute;
-    top: 90%;
+    top: 99%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -97,13 +82,13 @@ body {
   }
   
   .navMenu a:hover {
-    color: #0e7bcd;
+    color: #eb5693;
   }
   
   .navMenu .dot {
     width: 6px;
     height: 6px;
-    background: #fddb3a;
+    background: #eb5693;
     border-radius: 50%;
     opacity: 0;
     -webkit-transform: translateX(30px);
