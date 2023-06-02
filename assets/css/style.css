@@ -61,6 +61,11 @@ body {
 /* Navigation menu */
 
 /* Code adapted from https://codepen.io/WhisnuYs/pen/XWdpdGP */
+
+.main-padding {
+  position: relative;
+}
+
 .navMenu {
     position: absolute;
     top: 100%;
