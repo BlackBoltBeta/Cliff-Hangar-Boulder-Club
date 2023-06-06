@@ -9,6 +9,8 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+    background-color: #204B6C;
+    color: white;
     
 }
 /* hero image */
@@ -61,8 +63,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 10px outset #2876e6;
-    background-color: #2876e6;
+    border: 10px outset #80262c;
+    background-color: #80262c;
 }
 .nav-menu-link {
     color: #f6f4e6;
