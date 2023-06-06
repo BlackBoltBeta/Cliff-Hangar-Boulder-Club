@@ -11,10 +11,9 @@ body {
     font-family: "Montserrat", sans-serif;
     
 }
-
 /* hero image */
 
-/* Code adapted from https://blog.hubspot.com/marketing/hero-image */
+/* code adapted from https://blog.hubspot.com/marketing/hero-image */
 .hero {
     position: relative;
     width: 100vw;
@@ -37,10 +36,6 @@ body {
     filter: brightness(70%);
 }
 .hero-content {
-    position: relative;
-}
-
-.hero-content {
     position: relative; 
     font-family: "Monserrat", sans-serif;
     color: white;
@@ -58,43 +53,35 @@ body {
     margin-top: 1rem;
 }
 
-/* Navigation menu */
+/* navigation menu */
 
-/* Code adapted from https://codepen.io/WhisnuYs/pen/XWdpdGP */
-
-.navMenu {
+/* code adapted from https://codepen.io/WhisnuYs/pen/XWdpdGP */
+.nav-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 10px outset #2876e6;
     background-color: #2876e6;
-    
-  }
-  
-  .navmenu-link {
+}
+.nav-menu-link {
     color: #f6f4e6;
     text-decoration: none;
     font-size: 1.2em;
     text-transform: uppercase;
     font-weight: 500;
     width: 80px;
-  }
-  
-  .navmenu-link:hover {
+}
+.nav-menu-link:hover {
     color: #e69828;
-  }
-  
+}
 
-/* project area */
-
-
+/* Main area */
 
 .flex-container {
   display: flex;
   flex-direction: column;
 }
-
 .box {
   width: 100%;
   display: flex;
@@ -102,11 +89,31 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .box img {
   width: 100%;
   height: a;
 }
+
+/* Table Styling */
+
+.table-prices {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 300px;
+}
+.table-prices thead tr {
+  background-color: #2876e6;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+.table-prices th,
+.table-prices td {
+  padding: 12px 15px;
+}
+
+/* Media queries */
 
 @media only screen and (min-width:800px) {
   .flex-container {
@@ -117,33 +124,11 @@ body {
     width: 50%;
   }
 
-  .navMenu {
+  .nav-menu {
     flex-direction: row;
   }
 
   .box {
     width: 50%;
   }
-}
-
-/* Table Styling */
-
-.table-prices {
-  border-collapse: collapse;
-  margin: 25px 0;
-  font-size: 0.9em;
-  min-width: 400px;
-}
-
-.table-prices thead tr {
-  background-color: #2876e6;
-  color: white;
-  text-align: left;
-  font-weight: bold;
-}
-
-.table-prices th,
-.table-prices td {
-  padding: 12px 15px;
-  
 }
