@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Noto+Sans:wght@300&family=Oswald:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -8,10 +7,13 @@
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: Roboto, sans-serif;
     background-color: #204B6C;
     color: white;
-    
+    font-size: large;
+}
+h2, h2 {
+  font-family: Roboto, sans-serif;
 }
 /* hero image */
 
@@ -67,12 +69,12 @@ body {
     background-color: #80262c;
 }
 .nav-menu-link {
-    color: #f6f4e6;
+    color: #fff;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: ;
     text-transform: uppercase;
     font-weight: 500;
-    width: 80px;
+    width: 160px;
 }
 .nav-menu-link:hover {
     color: #e69828;
@@ -105,7 +107,7 @@ body {
   min-width: 300px;
 }
 .table-prices thead tr {
-  background-color: #2876e6;
+  background-color: #80262c;
   color: white;
   text-align: left;
   font-weight: bold;
