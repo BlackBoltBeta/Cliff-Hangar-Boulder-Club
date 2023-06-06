@@ -81,6 +81,7 @@ body {
 .flex-container {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .box {
   width: 100%;
@@ -91,7 +92,6 @@ body {
 }
 .box img {
   width: 100%;
-  height: a;
 }
 
 /* Table Styling */
@@ -112,6 +112,33 @@ body {
 .table-prices td {
   padding: 5px 5px;
 }
+.table-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.table-container-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.table-container-box img {
+  width: 100%;
+}
+
+/* times area */
+
+.times-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.times-list li {
+  padding: 5px;
+  margin-left: 30px;
+}
 
 /* Media queries */
 
@@ -128,7 +155,11 @@ body {
     flex-direction: row;
   }
 
-  .box {
+  .table-container {
+    flex-direction: row;
+  }
+
+  .table-container-box {
     width: 50%;
   }
 }
