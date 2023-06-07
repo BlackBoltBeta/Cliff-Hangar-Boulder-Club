@@ -149,16 +149,21 @@ body {
 html, body {
   min-height: 100%;
   }
-.book-body, .book-dv, .book-p, form, input, select, textarea { 
+.book-body, .book-div, .book-p, form, input, select, textarea { 
   padding: 0;
   margin: 0;
   outline: none;
   font-family: Roboto, Arial, sans-serif;
   font-size: 14px;
   color: #fff;
-  background-color: #80262c;AAAAAAAAAAAA
+  background-color: #204B6C;
   line-height: 22px;
   }
+
+textarea {
+  color: black;
+  background-color: #ccc;
+}
 .booking-title {
   position: absolute;
   margin: 0;
@@ -209,22 +214,17 @@ input, textarea {
   input[type="date"] {
   padding: 4px 5px;
   }
-  select {
-  width: 100%;
-  padding: 7px 0;
-  background: transparent;
-  }
   textarea {
   width: calc(100% - 12px);
   padding: 5px;
   }
   .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
-  color: #e69828;
+  color: #fff;
   }
-  .item input:hover, .item select:hover, .item textarea:hover {
+  .item input:hover, .item select:hover {
   border: 1px solid transparent;
-  box-shadow: 0 0 6px 0 #80262c;
-  color: black;
+  box-shadow: 0 0 6px 0 #fff;
+  color: #ccc;
   }
   .item {
   position: relative;
@@ -259,13 +259,13 @@ input, textarea {
   padding: 10px;
   border: none;
   border-radius: 5px; 
-  background: #204B6C;
+  background: #e69828;
   font-size: 16px;
   color: #fff;
   cursor: pointer;
   }
   button:hover {
-  background: #e69828;
+  background: #ccc;
   }
   
 /* footer */
