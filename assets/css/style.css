@@ -12,7 +12,7 @@ body {
     color: white;
     font-size: large;
 }
-
+  
 /* hero image */
 
 /* code adapted from https://blog.hubspot.com/marketing/hero-image */
@@ -38,8 +38,7 @@ body {
     filter: brightness(70%);
 }
 .hero-content {
-    position: relative; 
-    font-family: "Monserrat", sans-serif;
+    position: relative;
     color: white;
     text-align: center;
     margin: 0.625rem;
@@ -145,25 +144,42 @@ body {
   margin-left: 30px;
 }
 
+/* reservations form */
+
+
+
+/* footer */
+
+footer {
+  height:150px;
+  width:100%;
+  background-color: #80262c;
+}
+.social-media {
+  text-align: center;
+}
+.social-media i {
+  font-size: 120%;
+  margin: 1%;
+  padding: 5%;
+  color: #fff;
+}
+
 /* Media queries */
 
 @media only screen and (min-width:800px) {
   .flex-container {
     flex-direction: row;
   }
-
   .box {
     width: 50%;
   }
-
   .nav-menu {
     flex-direction: row;
   }
-
   .table-container {
     flex-direction: row;
   }
-
   .table-container-box {
     width: 50%;
   }
