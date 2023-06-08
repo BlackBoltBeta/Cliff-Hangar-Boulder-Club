@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bouldering club located in Tempelhofer Feld Berlin">
-    <meta name="keywords" content="Cliff Hangar, Blouldering climbing club, Tempelhofer Feld, Berlin, Germany">
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- font awesome script -->
-    <script src="https://kit.fontawesome.com/cce74ecefb.js" crossorigin="anonymous"></script>
-    <title>Booking</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bouldering club located in Tempelhofer Feld Berlin">
+  <meta name="keywords" content="Cliff Hangar, Blouldering climbing club, Tempelhofer Feld, Berlin, Germany">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- font awesome script -->
+  <script src="https://kit.fontawesome.com/cce74ecefb.js" crossorigin="anonymous"></script>
+  <title>Booking</title>
 </head>
+
 <body class="book-body">
-  <nav>
-    <div class="nav-menu">
+  <header>
+    <!-- navigation bar -->
+    <nav>
+      <div class="nav-menu">
         <a class="nav-menu-link" href="index.html" aria-label="home">Home</a>
-        <a class="nav-menu-link" href="index.html" aria-label="news">News</a>
+        <a class="nav-menu-link" href="index.html#news" aria-label="news">News</a>
         <a class="nav-menu-link" href="booking.html" aria-label="Booking">Booking</a>
-        <a class="nav-menu-link" href="index.html" aria-label="times">Times</a>
-        <a class="nav-menu-link" href="index.html" aria-label="Prices">Prices</a>
+        <a class="nav-menu-link" href="index.html#times" aria-label="times">Times</a>
+        <a class="nav-menu-link" href="index.html#prices" aria-label="Prices">Prices</a>
         <a class="nav-menu-link" href="team.html" aria-label="Instructors">Instructors</a>
-    </div>
-</nav>
+      </div>
+    </nav>
+  </header>
   <section>
     <main>
-    <div class="testbox" class="book-div">
+      <!-- booking section -->
+      <div class="testbox" class="book-div">
         <form action="https://formdump.codeinstitute.net/">
           <div class="banner" class="book-div">
             <h1 class="booking-title">Slot reservations</h1>
           </div>
           <div class="item" class="book-div">
-            <p class="book-p">Select Date</p>
-            <input type="date" name="bdate" required/>
+            <label for="bdate" class="book-p">Select Date</label>
+            <input id="bdate" type="date" name="bdate" required />
             <i class="fas fa-calendar-alt"></i>
           </div>
           <div class="item" class="book-div">
-            <p class="book-p">Name</p>
-            <div class="name-item" class="book-div">
-              <input type="text" name="name" placeholder="First" />
-              <input type="text" name="name" placeholder="Last" />
+            <label for="name" class="book-p">Name</label>
+            <div id="name" class="name-item" class="book-div">
+              <input type="text" name="name" placeholder="First" required/>
+              <input type="text" name="name" placeholder="Last" required/>
             </div>
           </div>
           <div class="item" class="book-div">
-            <p class="book-p">Email</p>
-            <input type="email" name="email"/>
-           </div>
+            <label for="email" class="book-p">Email</label>
+            <input id="email" type="email" name="email" />
           </div>
-          <div class="item" class="book-div">
-            <p class="book-p">Additional Message</p>
-            <textarea rows="3"></textarea>
-          </div>
-          <div class="btn-block" class="book-div">
-            <button type="submit" href="/">Send Application</button>
-          </div>
-        </form>
+      </div>
+      <div class="item" class="book-div">
+        <p class="book-p">Additional Message</p>
+        <textarea rows="3"></textarea>
+      </div>
+      <div class="btn-block" class="book-div">
+        <button type="submit" href="/">Send Application</button>
+      </div>
+      </form>
       </div>
     </main>
-      </section>
-      <footer>
-        <ul class="social-media">
-            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="visit our facebook page (opens new tab)">
-                <i class="fa-brands fa-square-facebook"></i>
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="visit our instagram (opens new tab)">
-                <i class="fa-brands fa-square-instagram"></i>
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="visit our twitter (opens new tab)">
-                <i class="fa-brands fa-twitter"></i>
-            </a>
-            <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="visit our youtube channel (opens new tab)">
-                <i class="fa-brands fa-youtube"></i>
-            </a>
-        </ul>
-    </footer>
+  </section>
+  <footer>
+    <!-- social section -->
+    <ul class="social-media">
+      <a href="https://facebook.com" target="_blank" rel="noopener"
+        aria-label="visit our facebook page (opens new tab)">
+        <i class="fa-brands fa-square-facebook"></i>
+      </a>
+      <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="visit our instagram (opens new tab)">
+        <i class="fa-brands fa-square-instagram"></i>
+      </a>
+      <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="visit our twitter (opens new tab)">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="https://youtube.com" target="_blank" rel="noopener"
+        aria-label="visit our youtube channel (opens new tab)">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+    </ul>
+  </footer>
 </body>
+
 </html>
