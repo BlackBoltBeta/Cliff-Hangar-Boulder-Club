@@ -98,6 +98,11 @@ body {
   width: 100%;
 }
 
+#news {
+  text-align: center;
+  AAAAAAAAAAAA
+}
+
 /* Table Styling */
 
 .table-prices {
@@ -142,6 +147,53 @@ body {
 .times-list li {
   padding: 5px;
   margin-left: 30px;
+}
+
+/* instructors section */
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  max-height: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #6c6720;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
 }
 
 /* reservations form */
