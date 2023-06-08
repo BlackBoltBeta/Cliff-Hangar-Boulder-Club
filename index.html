@@ -126,13 +126,13 @@
                     <div class="item" class="book-div">
                         <label for="name" class="book-p">Name</label>
                         <div class="name-item" class="book-div">
-                            <input type="text" name="name" placeholder="First" />
-                            <input type="text" name="name" placeholder="Last" />
+                            <input type="text" name="name" placeholder="First" required/>
+                            <input type="text" name="name" placeholder="Last" required/>
                         </div>
                     </div>
                     <div class="item" class="book-div">
                         <label for="email" class="book-p">Email</label>
-                        <input type="email" name="email" />
+                        <input id="email" type="email" name="email" required/>
                     </div>
             </div>
             <div class="item" class="book-div">
@@ -140,7 +140,7 @@
                 <textarea rows="3"></textarea>
             </div>
             <div class="btn-block" class="book-div">
-                <button type="submit" href="/">Send</button>
+                <button type="submit">Send</button>
             </div>
             </form>
             </div>
