@@ -93,7 +93,10 @@ Nav bar - home page | Click nav buttons | That each nav element takes me to the 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fblackboltbeta.github.io%2FCliff-Hangar-Boulder-Club%2Findex.html)
+  - No errors were returned when passing all three pages through the validator 
+  - [W3C validator for index](https://validator.w3.org/nu/?doc=https%3A%2F%2Fblackboltbeta.github.io%2FCliff-Hangar-Boulder-Club%2Findex.html)
+  - [W3C validator for booking](https://validator.w3.org/nu/?doc=https%3A%2F%2Fblackboltbeta.github.io%2FCliff-Hangar-Boulder-Club%2Fbooking.html)
+  - [W3C validator for teams](https://validator.w3.org/nu/?doc=https%3A%2F%2Fblackboltbeta.github.io%2FCliff-Hangar-Boulder-Club%2Fteam.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fblackboltbeta.github.io%2FCliff-Hangar-Boulder-Club%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
