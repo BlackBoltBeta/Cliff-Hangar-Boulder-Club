@@ -400,6 +400,11 @@ footer {
   list-style-type: none;
 }
 
+.social-media li {
+  display: inline;
+  padding: 20px;
+}
+
 .social-media i {
   font-size: 110%;
   margin: 1%;
